@@ -1,0 +1,163 @@
+.join .thumbs{}
+.join .thumbs img{
+    width: 100%;
+    height: 100%;
+}
+.join .content{
+   width: 1000px;
+   margin: auto;
+}
+.join .content .title{
+   margin: 20px 0px;
+}
+.join .content .title h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    color: #0260b3;
+    line-height: 60px;
+}
+.join .content .title i{
+    width: 172px;
+    height: 3px;
+    display: block;
+    background: url(img/slices/h.png) no-repeat;
+    margin: auto;
+}
+.join .content .title span{
+    display: block;
+    color: #c1c1c1;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+.join .content ul.title_lists{
+    overflow: auto;
+    width: 71%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.join .content ul.title_lists a{
+    display: block;
+    float: left;
+    border-right: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    color: #005eaf;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+.join .content ul.title_lists a li{
+    padding: 0px 30px;
+}
+.join .content ul.title_lists a li.c_score{
+    color: #fff;
+    background-color: #005eaf;
+}
+.join .content ul.title_lists a:first-child{
+    border-left: 1px solid #c1c1c1;
+}
+.join .content ul.title_lists a li:hover{
+    font-size: 14px;
+    color: #fff;
+    background-color: #005eaf;
+}
+.join .content .hidecontent{
+    display:none;
+}
+.join .content .d_1 .bj_bar{
+    background: url(img/slices/map.jpg) no-repeat; 
+    width: 100%;
+}
+.join .content .d_1 .bj_bar{
+    overflow: auto;
+    position: relative;
+    padding-bottom: 114px;
+}
+.join .content .d_1 .bj_bar .left_map{}
+.join .content .d_1 .bj_bar .jieshao{
+    width: 478px;
+    position: relative;
+    top: 0px;
+    left: 385px;
+}
+.join .content .d_1 .bj_bar .jieshao .js01{
+    margin-bottom: 25px;
+}
+.join .content .d_1 .bj_bar .jieshao .js01 .title_con{
+    margin-bottom: 15px;
+}
+.join .content .d_1 .bj_bar .jieshao .js01 .title_con h3{
+    line-height: 40px;
+    font-size: 20px;
+    color: #005eaf;
+    font-weight: normal;
+}
+.join .content .d_1 .bj_bar .jieshao .js01 .title_con p{
+    line-height: 28px;
+    font-size: 14px;
+}
+.join .content .d_1 .bj_bar .jieshao .js01 .con{}
+.join .content .d_1 .bj_bar .jieshao .js01 .con p{
+    line-height: 28px;
+    font-size: 14px;
+}
+.join .content .d_1 .bj_bar .jieshao .js02{}
+.join .content .d_1 .bj_bar .jieshao .js02 h3{
+    line-height: 40px;
+    font-size: 20px;
+    color: #005eaf;
+    font-weight: normal;
+}
+.join .content .d_1 .bj_bar .jieshao .js02 p{
+    line-height: 28px;
+    font-size: 14px;
+}
+ .info {
+        border: solid 1px silver;
+}
+div.info-top {
+            position: relative;
+            background: none repeat scroll 0 0 #F9F9F9;
+            border-radius: 5px 5px 0 0;
+}
+div.info-top div {
+            display: inline-block;
+            color: #333333;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 22px;
+            padding: 0 10px;
+}
+div.info-top img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            transition-duration: 0.25s;
+}
+div.info-top img:hover {
+            box-shadow: 0px 0px 5px #000;
+}
+div.info-middle {
+            font-size: 12px;
+            padding: 6px;
+            line-height: 20px;
+}
+div.info-bottom {
+            height: 0px;
+            width: 100%;
+            clear: both;
+            text-align: center;
+}
+div.info-bottom img {
+            position: relative;
+            z-index: 104;
+}
+span {
+            font-size: 11px;
+}
+.info-middle img {
+            float: left;
+            margin-right: 6px;
+}

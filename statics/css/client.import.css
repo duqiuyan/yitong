@@ -1,0 +1,99 @@
+.client .thumbs{}
+.client .thumbs img{
+    width: 100%;
+    height: 100%;
+}
+.client .content{
+   width: 1000px;
+   margin: auto;
+}
+.client .content .title{
+   margin: 20px 0px;
+}
+.client .content .title h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    color: #0260b3;
+    line-height: 60px;
+}
+.client .content .title i{
+    width: 172px;
+    height: 3px;
+    display: block;
+    background: url(img/slices/h.png) no-repeat;
+    margin: auto;
+}
+.client .content .title span{
+    display: block;
+    color: #c1c1c1;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+.client .content ul.title_lists{
+    overflow: auto;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.client .content ul.title_lists a{
+    display: block;
+    float: left;
+    border-right: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    color: #005eaf;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+.client .content ul.title_lists li{
+    padding: 0px 45px;
+}
+.client .content ul.title_lists a li.c_score{
+    color: #fff;
+    background-color: #005eaf;
+}
+.client .content ul.title_lists a:first-child{
+    border-left: 1px solid #c1c1c1;
+}
+.client .content ul.title_lists a li:hover{
+    font-size: 14px;
+    color: #fff;
+    background-color: #005eaf;
+}
+.client .content .hidecontent{
+    display:none;
+}
+.client .content ul.banner_lists{
+    overflow: auto;
+    margin-left: -48px;
+    margin-bottom: 28px;
+}
+.client .content .d_1 ul.banner_lists li{
+    float: left;
+    margin-right: 20px;
+}
+.client .content .d_1 ul.banner_lists li:last-child{
+    margin-right: 0px;
+}
+.client .content .d_1 ul.banner_lists li a.thumb{
+    display: block;
+    border: 5px solid #e5e5e5;
+}
+.client .content .d_1 ul.banner_lists li a.thumb:hover{
+    background-color: #000;
+    opacity: 0.5;
+}
+.client .content .d_1 ul.banner_lists li a.thumb img{
+    width: 100%;
+    height: 100%;
+}
+.client .content .d_1 ul.banner_lists li a.tt{
+    display: block;
+    text-align: center;
+    color: #005eaf;
+    font-size: 18px;
+    line-height: 36px;
+}

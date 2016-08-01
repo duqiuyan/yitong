@@ -1,0 +1,20 @@
+﻿/*样式重置*/
+@import url("normalize.import.css");
+/*全局样式-用于各种页面*/
+@import url("common.import.css");
+/*亿通首页*/
+@import url("index.import.css");
+/*关于亿通*/
+@import url("about.import.css");
+/*产品与方案*/
+@import url("product.import.css");
+/*客户与案例*/
+@import url("client.import.css");
+/*新闻中心*/
+@import url("news.import.css");
+/*加入亿通*/
+@import url("join.import.css");
+/*新闻详情*/
+@import url("news_detail.import.css");
+/*产品介绍*/
+@import url("p_intro.import.css");

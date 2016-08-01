@@ -1,0 +1,83 @@
+.about .thumbs{}
+.about .thumbs img{
+    width: 100%;
+    height: 100%;
+}
+.about .content{
+   width: 1000px;
+   margin: auto;
+}
+.about .content .title{
+   margin: 20px 0px;
+}
+.about .content .title h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    color: #0260b3;
+    line-height: 60px;
+}
+.about .content .title i{
+    width: 172px;
+    height: 3px;
+    display: block;
+    background: url(img/slices/h.png) no-repeat;
+    margin: auto;
+}
+.about .content .title span{
+    display: block;
+    color: #c1c1c1;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+.about .content ul.title_lists{
+    overflow: auto;
+    width: 71%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.about .content ul.title_lists a{
+    display: block;
+    float: left;
+    border-right: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    color: #005eaf;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+.about .content ul.title_lists a li{
+    padding: 0px 30px;
+}
+.about .content ul.title_lists a li.c_score{
+    color: #fff;
+    background-color: #005eaf;
+}
+.about .content ul.title_lists a:first-child{
+    border-left: 1px solid #c1c1c1;
+}
+.about .content ul.title_lists a li:hover {
+    font-size: 14px;
+    color: #fff;
+    background-color: #005eaf;
+}
+.about .content .hidecontent{
+    display:none;
+}
+.about .content .d_1 .ms p{
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 28px;
+}
+.about .content .d_1 .ytr{
+   margin: 20px 0px;
+}
+.about .content .d_1 .ytr span{
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    text-align: right;
+}
